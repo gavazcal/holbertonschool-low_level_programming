@@ -13,7 +13,6 @@ void jack_bauer(void)
 		{
 			_putchar(TensHours);
 			_putchar(Hours);
-			_putchar(':');
 			if (TensHours == 2 && Hours == 4)
 				break;
 			for (TensMinutes = 0; TensMinutes <= 5; TensMinutes++)
