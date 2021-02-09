@@ -17,7 +17,7 @@ int main(void)
 		fibonacci = first_digit + second_digit;
 		first_digit = second_digit;
 		second_digit = fibonacci;
-		if ((second_digit < 4000000) && (second_digit %2 == 0))
+		if ((second_digit < 4000000) && (second_digit % 2 == 0))
 			counter += second_digit;
 	}
 	printf("%lu\n", fibonacci);
