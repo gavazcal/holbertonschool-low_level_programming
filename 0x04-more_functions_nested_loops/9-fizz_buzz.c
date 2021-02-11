@@ -22,10 +22,6 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
-		else if (counter % 15 == 0)
-		{
-			printf("FizzBuzz ");
-		}
 		else
 		{
 			printf("%d ", counter);
