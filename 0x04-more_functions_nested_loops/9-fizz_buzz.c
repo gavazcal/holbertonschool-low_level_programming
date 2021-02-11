@@ -20,7 +20,10 @@ int main(void)
 		}
 		else if (counter % 5 == 0)
 		{
+			if (counter != 100)
 			printf("Buzz ");
+			else
+				printf("Buzz");
 		}
 		else
 		{
