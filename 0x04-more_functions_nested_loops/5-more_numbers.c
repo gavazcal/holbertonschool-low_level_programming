@@ -7,7 +7,7 @@ void more_numbers(void)
 {
 	int counter, digit;
 
-	for (counter = 0; counter <= 14; counter++)
+	for (counter = 0; counter <= 10; counter++)
 	{
 		for (digit = 0; digit <= 14; digit++)
 		{
