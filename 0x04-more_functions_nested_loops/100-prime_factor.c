@@ -8,10 +8,13 @@ int main(void)
 	long prime = 612852475143;
 	long factor;
 
-	factor = (prime / 2);
-	while ((factor % 2) != 0)
+	for (factor = 2; factor <= prime; factor++)
 	{
-		factor = factor / 2;
+		if (prime % factor == 0)
+		{
+			prime = prime / factor;
+			factor--;
+		}
 	}
 	printf("%ld\n", factor);
 	return (0);
