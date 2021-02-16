@@ -5,17 +5,17 @@
  */
 void puts_half(char *str)
 {
-	int length_of_the_string, half_length;
+	int length, half;
 
-	for (length_of_the_string = 0; str[length_of_the_string] != '\0'; length_of_the_string++)
+	for (length = 0; str[length] != '\0'; length++)
 	{
 	;
 	}
-	length_of_the_string += 1;
+	length += 1;
 
-	for (half_length = length_of_the_string / 2; str[half_length] != '\0'; half_length++)
+	for (half = (length / 2); str[half] != '\0'; half++)
 	{
-		_putchar(str[half_length]);
+		_putchar(str[half]);
 	}
 	_putchar('\n');
 }
