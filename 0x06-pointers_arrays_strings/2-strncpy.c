@@ -5,6 +5,7 @@
  * @dest: the destination
  * @src: the source
  * @n: the amount of bytes
+ * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
@@ -14,7 +15,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[counter] = src[counter];
 	}
-	if (counter < n)
+	for (; counter < n; counter++)
 	{
 		dest[counter] = '\0';
 	}
