@@ -1,9 +1,6 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
-/*LIBRARIES*/
 #include <stdio.h>
-#include <string.h>
-#include <unistd.h>
 /*PROTOTYPES*/
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
