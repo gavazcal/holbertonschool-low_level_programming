@@ -6,15 +6,15 @@
  */
 char *string_toupper(char *s)
 {
-	int counter;
+	int counter = 0;
 
 	while (s[counter] != '\0')
 	{
+		counter++;
 		if (s[counter] <= 122 && s[counter] >= 97)
 		{
 			s[counter] -= 32;
 		}
-		counter++;
 	}
 	return (s);
 }
