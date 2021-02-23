@@ -7,7 +7,7 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	int idx, idx_two;
+	int idx = 0, idx_two = 0;
 
 	if (*needle == '\0' || *needle == 0)
 	{
