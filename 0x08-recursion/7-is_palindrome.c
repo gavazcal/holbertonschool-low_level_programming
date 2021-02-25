@@ -20,6 +20,7 @@ int palindrome_checker_a(char *s)
 /**
  * palindrome_checker_b - auxiliary function
  * @s: string
+ * @checker: counter
  * Return: int
  */
 int palindrome_checker_b(char *s, int checker)
@@ -44,5 +45,5 @@ int is_palindrome(char *s)
 	checker = palindrome_checker_a(s);
 	if (checker <= 1)
 		return (1);
-	return palindrome_checker_b(s, checker);
+	return (palindrome_checker_b(s, checker));
 }
