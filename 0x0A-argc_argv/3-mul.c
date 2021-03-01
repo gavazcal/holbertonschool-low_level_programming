@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "holberton.h"
-
+/**
+ * main - multiplies two numbers
+ * @argc: the amount of numbersd
+ * @argv: the numbers
+ * Return: 0
+ */
 int main(int argc, char *argv[])
 {
 	if (argc == 3)
