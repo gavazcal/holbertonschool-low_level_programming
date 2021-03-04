@@ -10,6 +10,7 @@ void *malloc_checked(unsigned int b)
 
 	if (memory == NULL)
 	{
+		free(memory);
 		exit(98);
 	}
 	return (memory);
