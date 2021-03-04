@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdlib.h>
 /**
  * malloc_checked - allocates memory with malloc
  * @b: the size to be created
@@ -7,14 +6,14 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *memory;
+	void *mem;
 
-	memory = malloc(b);
-
-	if (memory == NULL)
-	{
-		free(memory);
+	if (b == 0)
 		exit(98);
-	}
-	return (memory);
+
+	mem = malloc(b);
+
+	if (mem == NULL)
+		exit(98);
+	return (mem);
 }
