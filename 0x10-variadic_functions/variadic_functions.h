@@ -7,9 +7,9 @@
 #include <unistd.h>
 #include <stdlib.h>
 /**
- * struct type_fmt - formats struct
- * @type: format
- * @f: function
+ * struct type_print - struct
+ * @types: checks for format
+ * @pointer: function
  */
 typedef struct type_print
 {
