@@ -48,6 +48,12 @@ int op_div(int a, int b)
 	}
 	return (a / b);
 }
+/**
+ * op_mod - mods two ints
+ * @a: int one
+ * @b: int two
+ * Return: result
+ */
 int op_mod(int a, int b)
 {
 	if (b <= 0)
