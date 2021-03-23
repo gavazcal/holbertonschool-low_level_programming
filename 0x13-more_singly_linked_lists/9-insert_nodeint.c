@@ -23,7 +23,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		free(insert);
 		return (NULL);
 	}
-	if (idx_check == 0)
+	if (idx == 0)
 	{
 		insert->next = *head;
 		*head = insert;
